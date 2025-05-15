@@ -81,13 +81,31 @@ h1, h2 {
     text-underline-offset: 4px;
 }
 
+
+
 .absolute {
     position: absolute;
     bottom: -10px;
     left: 0;
     width: 100%;
-    z-index: -10;
+    z-index: -10;  
+}
+
+/* Inicio das configurações da seção clinica */
 
 
-    
+
+#clinica{
+    display:flex;
+    align-items: center;
+    gap: 32px;
+    padding: 80px 80px 24px 80px;
+    position: relative;
+}
+li{
+    margin-bottom: 30px;
+}
+
+.lista{
+    margin-bottom: 70px;
 }
