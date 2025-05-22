@@ -109,3 +109,19 @@ li{
 .lista{
     margin-bottom: 70px;
 }
+
+
+
+
+/*Inicio das configurações da seção farmacia*/
+
+#farmacia{
+
+    margin-top: 80px;
+    text-align: center;
+}
+
+#text-farmacia{
+    padding: 30px 250px;
+
+}
