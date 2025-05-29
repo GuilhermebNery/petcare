@@ -102,7 +102,7 @@ h1, h2 {
     padding: 80px 80px 24px 80px;
     position: relative;
 }
-li{
+.lista li{
     margin-bottom: 30px;
 }
 
@@ -176,3 +176,52 @@ li{
 }
 
 
+/*Footer*/
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FF9A6C;
+    opacity: 90%;
+    padding:20px 40px ;
+    
+}
+
+#footer {
+    display: block;
+    padding-top:5px ;
+
+}
+
+#list-foot li{
+    padding-top: 10px;
+
+
+}
+
+#footer h4{
+    padding-bottom: 5px;
+}
+
+#list-foot li{
+    text-decoration: none;
+    list-style: none;
+}
+#list-foot a{
+    color: black;
+    text-decoration: none;
+}
+.faixa{
+    display: flex;
+    background-color: black;
+    height: 50px;
+    justify-content: center;
+    color: #F0F0F0;
+    align-items: center;
+
+}
+.faixa a{
+    padding-right:5px ;
+    text-decoration: none;
+    color:#F0F0F0;
+}
